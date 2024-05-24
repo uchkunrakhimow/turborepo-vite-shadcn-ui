@@ -13,8 +13,8 @@ The goal of this repository is to provide up-to-date starters for vite-react and
 
 Make sure you have the following installed:
 
-- [Node.js](https://nodejs.org/en/download/) (version 14 or higher)
-- [pnpm](https://pnpm.io/installation) (version 6 or higher)
+- [Node.js](https://nodejs.org/en/download/) (version 18 or higher)
+- [pnpm](https://pnpm.io/installation) (version 9 or higher)
 
 ### Installation
 
