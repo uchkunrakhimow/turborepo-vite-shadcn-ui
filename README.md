@@ -6,10 +6,10 @@ and `nextjs`) in the `apps`
 directory, both of which use shared components from the `@repo/ui` package.
 
 This repository is based on https://github.com/dan5py/turborepo-shadcn-ui starter.
-x
+
 The goal of this repository is to provide up-to-date starters for vite-react and Next.js, and probably something else.
 
-### Prerequisites
+### Prerequisitesvite
 
 Make sure you have the following installed:
 
@@ -20,22 +20,23 @@ Make sure you have the following installed:
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/evgenius1424/turborepo-vite-shadcn-ui.git
-    cd turborepo-vite-shadcn-ui
-    ```
+   ```bash
+   git clone https://github.com/evgenius1424/turborepo-vite-shadcn-ui.git
+   cd turborepo-vite-shadcn-ui
+   ```
 
 2. Install dependencies using `pnpm`:
 
-    ```bash
-    pnpm install
-    ```
+   ```bash
+   pnpm install
+   ```
 
 3. Build
 
-    ```bash
-    pnpm build
-    ```
+   ```bash
+   pnpm build
+   ```
+
 4. Develop
 
 ```bash
@@ -43,8 +44,3 @@ Make sure you have the following installed:
 ```
 
 Enjoy working with your new Turborepo starter kit and feel free to raise a PR! 🎉
-
-
-
-
-
