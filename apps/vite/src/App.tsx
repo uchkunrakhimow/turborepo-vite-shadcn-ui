@@ -11,10 +11,10 @@ function App() {
       <h1 className="text-xl font-bold mb-2">This is a Vite application</h1>
       <p className="mb-4">
         This shadcn/ui button is shared between Vite, NextJS and any other
-        application.{" "}
+        application.
       </p>
       <Button onClick={() => setCount((count) => count + 1)}>
-        count is {count}
+        Count is {count}
       </Button>
     </div>
   );
