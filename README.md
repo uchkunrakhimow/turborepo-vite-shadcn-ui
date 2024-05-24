@@ -43,4 +43,10 @@ Make sure you have the following installed:
    pnpm dev
 ```
 
+5. Add new [component](https://ui.shadcn.com/docs/components/tabs) (replace card with button, tabs, you name it)
+
+```bash
+pnpm ui:add card
+```
+
 Enjoy working with your new Turborepo starter kit and feel free to raise a PR! 🎉
