@@ -9,7 +9,7 @@
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
-    "@types/node": "^22.9.3",
+    "@types/node": "^22.10.1",
     "@types/react": "^18.3.12",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
@@ -18,9 +18,9 @@
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.0",
-    "class-variance-authority": "^0.7.0",
+    "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "lucide-react": "^0.460.0",
+    "lucide-react": "^0.462.0",
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7"
   },
