@@ -11,7 +11,7 @@
     "volta:install": "curl https://get.volta.sh | bash"
   },
   "devDependencies": {
-    "prettier": "^3.4.1",
+    "prettier": "^3.4.2",
     "turbo": "^2.3.3",
     "typescript": "^5.7.2"
   },
