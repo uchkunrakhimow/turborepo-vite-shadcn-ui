@@ -44,7 +44,7 @@ jobs:
         run: pnpm install --frozen-lockfile --strict-peer-dependencies
 
       - name: Update dependencies
-        run: pnpm up -r --latest '!*eslint*'
+        run: pnpm up -r --latest '!*eslint*' '!*tailwind*'
 
       - name: Build
         run: pnpm build
