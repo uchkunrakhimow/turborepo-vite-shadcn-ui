@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "ui:add": "pnpm dlx shadcn@latest add",
+    "ui": "pnpm dlx shadcn@latest add",
     "lint": "eslint ."
   },
   "devDependencies": {
@@ -32,6 +32,10 @@
     "./postcss.config": "./postcss.config.js",
     "./tailwind.config": "./tailwind.config.ts",
     "./lib/*": "./src/lib/*.ts",
+    "./hooks/*": [
+      "./src/hooks/*.ts",
+      "./src/hooks/*.tsx"
+    ],
     "./components/*": "./src/components/*.tsx"
   }
 }

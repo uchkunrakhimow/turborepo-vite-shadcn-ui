@@ -8,7 +8,8 @@
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "ui:add": "pnpm --filter @repo/ui ui:add",
-    "volta:install": "curl https://get.volta.sh | bash"
+    "volta:install": "curl https://get.volta.sh | bash",
+    "ui": "pnpm --filter @repo/ui ui"
   },
   "devDependencies": {
     "prettier": "^3.5.3",
