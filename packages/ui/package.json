@@ -9,6 +9,7 @@
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
+    "@tailwindcss/postcss": "^4.1.4",
     "@types/node": "^22.10.7",
     "@types/react": "^19.0.7",
     "autoprefixer": "^10.4.20",
