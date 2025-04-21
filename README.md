@@ -1,4 +1,4 @@
-# 🚀 Turborepo starter with shared shadcn/ui components (Vite, Next.js)
+# 🚀 Turborepo starter with shared shadcn/ui components (Vite, Next.js). Tailwind 4 support.
 
 [![Build](https://github.com/evgenius1424/turborepo-vite-shadcn-ui/actions/workflows/build.yml/badge.svg)](https://github.com/evgenius1424/turborepo-vite-shadcn-ui/actions/workflows/build.yml)
 [![Update Dependencies](https://github.com/evgenius1424/turborepo-vite-shadcn-ui/actions/workflows/update-dependencies.yml/badge.svg)](https://github.com/evgenius1424/turborepo-vite-shadcn-ui/actions/workflows/update-dependencies.yml)
