@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack --port 3000",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint --max-warnings 0",
+    "check-types": "tsc --noEmit"
   },
   "dependencies": {
     "@repo/ui": "workspace:*",
@@ -15,14 +16,12 @@
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^14.2.3",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
-    "@types/eslint": "^8.56.10",
+    "@next/eslint-plugin-next": "^14.2.3",
     "@types/node": "^22.14.1",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
-    "autoprefixer": "^10.4.21",
     "eslint": "^8.57.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.1.4",
