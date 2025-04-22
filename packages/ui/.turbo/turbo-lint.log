@@ -1,0 +1,5 @@
+
+
+> @repo/ui@0.0.0 lint /Users/evgenius1424/WebstormProjects/turborepo-vite-shadcn-ui/packages/ui
+> eslint . --max-warnings 0
+

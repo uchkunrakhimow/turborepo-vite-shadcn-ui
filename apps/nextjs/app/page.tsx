@@ -1,9 +1,8 @@
 "use client";
+import React, { useState } from "react";
+import { Button } from "@repo/ui/components/button";
 
-import { useState } from "react";
-import { Button } from "@repo/ui/components/ui/button";
-
-export default function Home() {
+export default function Page() {
   const [count, setCount] = useState(0);
 
   return (
