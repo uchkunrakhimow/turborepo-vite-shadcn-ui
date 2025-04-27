@@ -8,8 +8,6 @@ applications with shared [shadcn/ui](https://github.com/shadcn-ui/ui) components
 and `nextjs`) in the `apps`
 directory, both of which use shared components from the `@repo/ui` package.
 
-This repository is based on https://github.com/dan5py/turborepo-shadcn-ui starter.
-
 The goal of this repository is to provide up-to-date starters for vite-react and Next.js, and probably something else.
 
 ### Prerequisitesvite
