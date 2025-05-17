@@ -1,0 +1,22 @@
+services:
+  vite:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        APP_NAME: vite
+    ports:
+      - "3000:80"
+    container_name: vite
+    restart: unless-stopped
+
+  nextjs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        APP_NAME: nextjs
+    ports:
+      - "3001:80"
+    container_name: nextjs
+    restart: unless-stopped
