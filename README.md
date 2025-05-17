@@ -1,53 +1,82 @@
 # 🚀 Turborepo starter with shared shadcn/ui components (Vite, Next.js). Tailwind 4 support.
 
-[![Build](https://github.com/evgenius1424/turborepo-vite-shadcn-ui/actions/workflows/build.yml/badge.svg)](https://github.com/evgenius1424/turborepo-vite-shadcn-ui/actions/workflows/build.yml)
-[![Update Dependencies](https://github.com/evgenius1424/turborepo-vite-shadcn-ui/actions/workflows/update-dependencies.yml/badge.svg)](https://github.com/evgenius1424/turborepo-vite-shadcn-ui/actions/workflows/update-dependencies.yml)
-
 This repository is a monorepo starter kit utilizing [Turborepo](https://turbo.build/repo) for managing multiple
 applications with shared [shadcn/ui](https://github.com/shadcn-ui/ui) components. It includes two applications (`vite`
-and `nextjs`) in the `apps`
-directory, both of which use shared components from the `@repo/ui` package.
+and `nextjs`) in the `apps` directory, both of which use shared components from the `@repo/ui` package.
 
-The goal of this repository is to provide up-to-date starters for vite-react and Next.js, and probably something else.
+The goal of this repository is to provide up-to-date starters for Vite + React and Next.js, with Tailwind CSS v4 and shared UI components.
 
-### Prerequisitesvite
+---
+
+## ✨ Features
+
+- 🧱 Shared UI components via `@repo/ui`
+- ⚡ Vite + React and Next.js apps
+- 🐳 Docker & Docker Compose support
+- 🌬️ Tailwind CSS v4
+- 🧩 Easy component scaffolding with `shadcn/ui`
+
+---
+
+## 📦 Prerequisites
 
 Make sure you have the following installed:
 
-- [Node.js](https://nodejs.org/en/download/) (version 20 or higher)
-- [pnpm](https://pnpm.io/installation) (version 10 or higher)
+- [Node.js](https://nodejs.org/en/download/) (v22 or higher)
+- [npm](https://www.npmjs.com/) (v10 or higher)
 
-### Installation
+---
+
+## 📥 Installation
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/evgenius1424/turborepo-vite-shadcn-ui.git
-   cd turborepo-vite-shadcn-ui
-   ```
+```bash
+git clone https://github.com/uchkunrakhimow/turborepo-vite-shadcn-ui.git
+cd turborepo-vite-shadcn-ui
+````
 
-2. Install dependencies using `pnpm`:
-
-   ```bash
-   pnpm install
-   ```
-
-3. Build
-
-   ```bash
-   pnpm build
-   ```
-
-4. Develop
+2. Install dependencies using `npm`:
 
 ```bash
-   pnpm dev
+npm install
 ```
 
-5. Add new [component](https://ui.shadcn.com/docs/components/tabs) (replace card with button, tabs, you name it)
+3. Build the apps:
 
 ```bash
-pnpm ui card
+npm run build
 ```
+
+4. Start development:
+
+```bash
+npm run dev
+```
+
+5. Add a new [component](https://ui.shadcn.com/docs/components/tabs) (replace `card` with the desired component):
+
+```bash
+npm run ui card
+```
+
+---
+
+## 🐳 Docker
+
+To run the project using Docker:
+
+```bash
+docker-compose up --build
+```
+
+---
+
+## 🤝 Authors
+
+* Original author: [evgenius1424](https://github.com/evgenius1424)
+* Modified and maintained by: [uchkunrakhimow](https://github.com/uchkunrakhimow)
+
+---
 
 Enjoy working with your new Turborepo starter kit and feel free to raise a PR! 🎉
