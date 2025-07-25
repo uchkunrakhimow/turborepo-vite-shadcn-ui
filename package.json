@@ -13,12 +13,12 @@
   "devDependencies": {
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
-    "eslint": "^9.27.0",
-    "prettier": "^3.5.3",
-    "turbo": "^2.5.3",
+    "eslint": "^9.31.0",
+    "prettier": "^3.6.2",
+    "turbo": "^2.5.5",
     "typescript": "5.8.3"
   },
-  "packageManager": "npm@11.4.0",
+  "packageManager": "npm@11.5.1",
   "engines": {
     "node": ">=22"
   },
